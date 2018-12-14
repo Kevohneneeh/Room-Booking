@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#507b75"
+    android:layout_height="match_parent"
+    tools:context=".DoubleActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="191dp"
+        android:layout_height="232dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="59dp"
+        app:srcCompat="@drawable/mbilitwo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="314dp"
+        android:layout_height="43dp"
+        android:textColor="#8da430"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="5dp"
+        android:text=" DOUBLE ROOM"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="173dp"
+        android:layout_height="207dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/mbilione" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="278dp"
+        android:layout_height="151dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:paddingTop="5dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:text=" Our hotel is completely renovated in 2018 and has all the features and amenities to fulfill your needs. All of the rooms are equipped with free-wireless Internet."
+        android:textColor="#312e46"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="202dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:textColor="#540b0b"
+        android:layout_marginBottom="76dp"
+        android:background="#23583e"
+        android:paddingTop="5dp"
+        android:text="       19,000$"
+        android:textSize="27sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="6dp"
+        android:background="#5b8b73"
+        android:text="  Rate us "
+        android:textColor="#eee" />
+
+</RelativeLayout>

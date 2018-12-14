@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvUserLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <EditText
+        android:id="@+id/edtnameone"
+        android:layout_width="172dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="36dp"
+        android:background="#fcf7f6f3"
+        android:ems="10"
+        android:hint="Names Here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtnumberone"
+        android:layout_width="169dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/edtnameone"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:background="#fcf2eee6"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/edtmail"
+        android:layout_width="171dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="174dp"
+        android:background="#fcf2eee6"
+        android:ems="10"
+        android:hint="Email Here"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="164dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="222dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtpassword"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="163dp"
+        android:background="#587c99"
+        android:text="SignUp"
+        android:textColor="#eee"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="20dp"
+        android:layout_alignRight="@+id/edtpassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="0dp"
+        android:text="Please Fill The Registration Below"
+        android:textColor="#421b69"
+        android:textSize="17sp"
+        android:fontFamily="serif"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="297dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="71dp"
+        android:fontFamily="serif"
+        android:text="Already have an Account? Login."
+        android:textColor="#1c7a84"
+        android:textSize="17dp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

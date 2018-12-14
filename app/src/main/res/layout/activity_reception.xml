@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#347593"
+    android:layout_height="match_parent"
+    tools:context=".ReceptionActivity">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="271dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="RECEPTION"
+        android:textColor="#641106"
+        android:textSize="50dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/reception" />
+</RelativeLayout>

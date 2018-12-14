@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvone"
+        android:layout_width="479dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tvtwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <TextView
+        android:id="@+id/tvthree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <TextView
+        android:id="@+id/tvfour"
+        android:layout_width="426dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/tvfive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:id="@+id/tvsix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <TextView
+        android:id="@+id/tvseven"
+        android:layout_width="424dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <TextView
+        android:id="@+id/tveight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="350dp" />
+</LinearLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvdateone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44919b"
+    tools:context=".BookingActivity">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#29ba9b"
+        android:hint="Check in"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvDatetwo"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvDate"
+        android:layout_alignLeft="@+id/tvDate"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="100dp"
+        android:background="#29ba9b"
+        android:hint="Check out"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="223dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="0dp"
+        android:text="     Arrival/Departure"
+        android:textColor="#b66418"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDatetwo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="8dp"
+        android:text="Occupation"
+        android:textColor="#b66418"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/edtroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvDate"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="164dp"
+        android:ems="10"
+        android:hint="Rooms"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtadult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvDate"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="214dp"
+        android:ems="10"
+        android:hint="Adults"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtchildren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtroom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="294dp"
+        android:ems="10"
+        android:hint="Children"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="231dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/edtchildren"
+        android:layout_alignStart="@+id/tvDatetwo"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-294dp"
+        android:text="Personal Information"
+        android:textColor="#b66418"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_alignStart="@+id/tvDatetwo"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="22dp"
+        android:background="#7b6261"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtName"
+        android:layout_alignEnd="@+id/edtchildren"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-8dp"
+        android:background="#7b6261"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtmail"
+        android:layout_alignStart="@+id/tvDatetwo"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="14dp"
+        android:background="#7b6261"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="#194518"
+        android:text="Book Now" />
+
+
+</RelativeLayout>

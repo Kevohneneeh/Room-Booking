@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/singleone" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="182dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="26dp"
+        android:text="      Single Room"
+        android:textColor="#e1851c"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/texttext"
+        android:layout_width="172dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="76dp"
+        android:text="          Bed,Tv,AC,WiFi,Minibar"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textgo"
+        android:layout_width="143dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:background="#136417"
+        android:text=" Check Avalability"
+        android:textSize="17sp" />
+
+
+</RelativeLayout>

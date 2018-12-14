@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#594e5b"
+    android:layout_height="match_parent"
+    tools:context=".SpaActivity">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="328dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="29dp"
+        android:text="SPA CENTRE"
+        android:fontFamily="casual"
+        android:textColor="#2a8609"
+        android:textSize="50dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="86dp"
+        app:srcCompat="@drawable/spacenter" />
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backfitt"
+    android:layout_height="match_parent"
+    tools:context=".FitnessActivity">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="303dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="48dp"
+        android:textColor="#eee"
+        android:fontFamily="casual"
+        android:text="   FITNESS "
+        android:textSize="60dp"
+        android:textStyle="italic|bold" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="112dp"
+        app:srcCompat="@drawable/fittness" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "396234353053",
+    "firebase_url": "https://roombooking-a2a95.firebaseio.com",
+    "project_id": "roombooking-a2a95",
+    "storage_bucket": "roombooking-a2a95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396234353053:android:c5aeaae884bcd42d",
+        "android_client_info": {
+          "package_name": "com.kevohmunene.roombooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396234353053-mbpv2o9obq53tfss7a17sroanna27vut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kevohmunene.roombooking",
+            "certificate_hash": "df72cd24f2fe212c983aed9da4ef920009952f93"
+          }
+        },
+        {
+          "client_id": "396234353053-focgte8ev1u4eqvg9tunpcebrkiaejhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3EV5Dm-iEjQEgyaTWaXGGn27EDh6M4J8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396234353053-focgte8ev1u4eqvg9tunpcebrkiaejhf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

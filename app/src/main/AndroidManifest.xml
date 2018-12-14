@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kevohmunene.roombooking">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/kevoh"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BookingActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Registration Form" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="Gallery" />
+        <activity
+            android:name=".SelectActivity"
+            android:label="Home Page" />
+        <activity android:name=".RoomActivity" />
+        <activity
+            android:name=".ConfirmActivity"
+            android:label="Confirmation" />
+        <activity
+            android:name=".RatesActivity"
+            android:label="Rates" />
+        <activity
+            android:name=".SingleActivity"
+            android:label="Single Room" />
+        <activity
+            android:name=".DoubleActivity"
+            android:label="Double Room" />
+        <activity
+            android:name=".TripleActivity"
+            android:label="Triple Room" />
+        <activity
+            android:name=".QuadrupleActivity"
+            android:label="Quadruple Room" />
+        <activity
+            android:name=".ReservationActivity"
+            android:label="Reservation" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login Form" />
+        <activity
+            android:name=".FacilityActivity"
+            android:label="Facilities" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ReceptionActivity" />
+        <activity android:name=".SpaActivity" />
+        <activity android:name=".SwimmingActivity" />
+        <activity android:name=".LobbyActivity" />
+        <activity android:name=".FitnessActivity"></activity>
+    </application>
+
+</manifest>

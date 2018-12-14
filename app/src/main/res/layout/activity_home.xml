@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backthree"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+   <GridLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <ImageView
+           android:id="@+id/moja"
+           android:layout_marginTop="30dp"
+           android:layout_width="290dp"
+           android:layout_height="250dp"
+           android:layout_marginLeft="35dp"
+           android:layout_marginBottom="15dp"
+           android:scaleType="fitXY"
+           android:src="@drawable/reception" />
+
+       <ImageView
+           android:id="@+id/mbili"
+           android:layout_width="290dp"
+           android:layout_height="250dp"
+           android:layout_marginLeft="35dp"
+           android:layout_marginBottom="15dp"
+           android:scaleType="fitXY"
+           android:src="@drawable/spacenter" />
+
+       <ImageView
+           android:id="@+id/tatu"
+           android:scaleType="fitXY"
+           android:layout_width="290dp"
+           android:layout_height="250dp"
+           android:layout_marginLeft="35dp"
+           android:layout_marginBottom="15dp"
+           android:src="@drawable/swimming" />
+
+       <ImageView
+           android:id="@+id/nne"
+           android:scaleType="fitXY"
+           android:layout_width="290dp"
+           android:layout_height="250dp"
+           android:layout_marginLeft="35dp"
+           android:layout_marginBottom="15dp"
+           android:src="@drawable/lobbybar" />
+
+
+
+       <ImageView
+           android:id="@+id/tano"
+           android:scaleType="fitXY"
+           android:layout_width="290dp"
+           android:layout_height="250dp"
+           android:layout_marginLeft="35dp"
+           android:layout_marginBottom="15dp"
+           app:srcCompat="@drawable/fittness" />
+
+   </GridLayout>
+
+</ScrollView>

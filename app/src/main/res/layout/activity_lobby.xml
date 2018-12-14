@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/lobbarrrr"
+    android:layout_height="match_parent"
+    tools:context=".LobbyActivity">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="386dp"
+        android:layout_height="122dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="29dp"
+        android:fontFamily="cursive"
+        android:text="  LOBBY-BAR"
+        android:textColor="#700419"
+        android:textSize="56dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="92dp"
+        app:srcCompat="@drawable/lobbybar" />
+</RelativeLayout>
